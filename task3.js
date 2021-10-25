@@ -5,7 +5,7 @@
 
 
 function getFuncResult(numX = 5) {
-	return function cal(numY = 1) { 
+	return function (numY = 1) { 
 		return `Сумма = ${numX + numY}`;
 		
 	}
